@@ -1,0 +1,14 @@
+<h1>User List</h1>
+<ul>
+  <li *ngFor="let user of users" class="user-card">
+    <div class="user-detail">
+      <img [src]="imgUrl" alt="UserImg" class="user-img" />
+      <div class="data">
+        <p> Name: {{user.name}}</p>
+        <p> Email: {{user.email}}</p>
+        <p>{{1230 | currency : '₹'}}</p>
+      </div>
+    </div>
+    
+  </li>
+</ul>
