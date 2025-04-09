@@ -1,0 +1,301 @@
+### 🔹 **1. `<html>`**
+- **Definition:** Root element that wraps all HTML content on the page.
+- **Example:** `<html lang="en">`
+
+---
+
+### 🔹 **2. `<head>`**
+- **Definition:** Container for metadata like title, styles, and scripts (not visible on the page).
+- **Example:** `<head><title>My Page</title></head>`
+
+---
+
+### 🔹 **3. `<title>`**
+- **Definition:** Sets the title of the HTML document (appears on browser tab).
+- **Example:** `<title>Home Page</title>`
+
+---
+
+### 🔹 **4. `<body>`**
+- **Definition:** Contains all visible content (text, images, links, etc.) of the page.
+- **Example:** `<body><h1>Hello World</h1></body>`
+
+---
+
+### 🔹 **5. `<h1>` to `<h6>`**
+- **Definition:** Headings with `<h1>` being the highest and `<h6>` the lowest priority.
+- **Example:** `<h1>Main Heading</h1>`
+
+---
+
+### 🔹 **6. `<p>`**
+- **Definition:** Defines a paragraph.
+- **Example:** `<p>This is a paragraph.</p>`
+
+---
+
+### 🔹 **7. `<a>`**
+- **Definition:** Defines a hyperlink.
+- **Example:** `<a href="https://example.com">Visit</a>`
+
+---
+
+### 🔹 **8. `<img>`**
+- **Definition:** Embeds an image into the page.
+- **Example:** `<img src="image.jpg" alt="Sample Image">`
+
+---
+
+### 🔹 **9. `<ul>`**
+- **Definition:** Unordered list (bulleted).
+- **Example:** `<ul><li>Item 1</li></ul>`
+
+---
+
+### 🔹 **10. `<ol>`**
+- **Definition:** Ordered list (numbered).
+- **Example:** `<ol><li>First</li></ol>`
+
+---
+
+### 🔹 **11. `<li>`**
+- **Definition:** List item inside `<ul>` or `<ol>`.
+- **Example:** `<li>List Item</li>`
+
+---
+
+### 🔹 **12. `<div>`**
+- **Definition:** Generic container for block-level content (used for layout).
+- **Example:** `<div class="section">Content</div>`
+
+---
+
+### 🔹 **13. `<span>`**
+- **Definition:** Generic container for inline content.
+- **Example:** `<span style="color: red;">Red Text</span>`
+
+---
+
+### 🔹 **14. `<br>`**
+- **Definition:** Inserts a single line break.
+- **Example:** `Line 1<br>Line 2`
+
+---
+
+### 🔹 **15. `<hr>`**
+- **Definition:** Inserts a horizontal rule (divider).
+- **Example:** `<hr>`
+
+---
+
+### 🔹 **16. `<strong>`**
+- **Definition:** Makes text bold and semantically important.
+- **Example:** `<strong>Important</strong>`
+
+---
+
+### 🔹 **17. `<em>`**
+- **Definition:** Emphasizes text (usually italicized).
+- **Example:** `<em>Emphasized</em>`
+
+---
+
+### 🔹 **18. `<b>`**
+- **Definition:** Makes text bold (without semantic meaning).
+- **Example:** `<b>Bold Text</b>`
+
+---
+
+### 🔹 **19. `<i>`**
+- **Definition:** Makes text italic (without semantic emphasis).
+- **Example:** `<i>Italic Text</i>`
+
+---
+
+### 🔹 **20. `<u>`**
+- **Definition:** Underlines text.
+- **Example:** `<u>Underlined</u>`
+
+---
+
+### 🔹 **21. `<form>`**
+- **Definition:** Defines an HTML form for user input.
+- **Example:** `<form action="/submit" method="post">...</form>`
+
+---
+
+### 🔹 **22. `<input>`**
+- **Definition:** Defines input control (text, checkbox, etc.).
+- **Example:** `<input type="text" name="username">`
+
+---
+
+### 🔹 **23. `<textarea>`**
+- **Definition:** Multi-line text input control.
+- **Example:** `<textarea name="message"></textarea>`
+
+---
+
+### 🔹 **24. `<button>`**
+- **Definition:** Defines a clickable button.
+- **Example:** `<button>Click Me</button>`
+
+---
+
+### 🔹 **25. `<label>`**
+- **Definition:** Provides label for form controls.
+- **Example:** `<label for="name">Name:</label>`
+
+---
+
+### 🔹 **26. `<select>`**
+- **Definition:** Drop-down list.
+- **Example:** `<select><option>Option</option></select>`
+
+---
+
+### 🔹 **27. `<option>`**
+- **Definition:** Defines options in a drop-down list.
+- **Example:** `<option value="1">One</option>`
+
+---
+
+### 🔹 **28. `<table>`**
+- **Definition:** Defines a table.
+- **Example:** `<table><tr><td>Data</td></tr></table>`
+
+---
+
+### 🔹 **29. `<tr>`**
+- **Definition:** Table row.
+- **Example:** `<tr><td>Row 1</td></tr>`
+
+---
+
+### 🔹 **30. `<td>`**
+- **Definition:** Table data cell.
+- **Example:** `<td>Cell Data</td>`
+
+---
+
+### 🔹 **31. `<th>`**
+- **Definition:** Table header cell.
+- **Example:** `<th>Heading</th>`
+
+---
+
+### 🔹 **32. `<thead>`**
+- **Definition:** Groups header content in a table.
+- **Example:** `<thead><tr><th>Name</th></tr></thead>`
+
+---
+
+### 🔹 **33. `<tbody>`**
+- **Definition:** Groups body content in a table.
+- **Example:** `<tbody><tr><td>Data</td></tr></tbody>`
+
+---
+
+### 🔹 **34. `<tfoot>`**
+- **Definition:** Groups footer content in a table.
+- **Example:** `<tfoot><tr><td>Total</td></tr></tfoot>`
+
+---
+
+### 🔹 **35. `<iframe>`**
+- **Definition:** Embeds another document or web page.
+- **Example:** `<iframe src="page.html"></iframe>`
+
+---
+
+### 🔹 **36. `<script>`**
+- **Definition:** Embeds JavaScript code.
+- **Example:** `<script>alert("Hi!")</script>`
+
+---
+
+### 🔹 **37. `<link>`**
+- **Definition:** Links external resources (e.g., stylesheets).
+- **Example:** `<link rel="stylesheet" href="style.css">`
+
+---
+
+### 🔹 **38. `<meta>`**
+- **Definition:** Provides metadata about the document (e.g., charset, description).
+- **Example:** `<meta charset="UTF-8">`
+
+---
+
+### 🔹 **39. `<style>`**
+- **Definition:** Embeds internal CSS styles.
+- **Example:** `<style>body { font-family: Arial; }</style>`
+
+---
+
+### 🔹 **40. `<nav>`**
+- **Definition:** Declares navigation links.
+- **Example:** `<nav><a href="/">Home</a></nav>`
+
+---
+
+### 🔹 **41. `<header>`**
+- **Definition:** Defines a header for a document or section.
+- **Example:** `<header><h1>Welcome</h1></header>`
+
+---
+
+### 🔹 **42. `<footer>`**
+- **Definition:** Defines a footer for a document or section.
+- **Example:** `<footer>© 2025</footer>`
+
+---
+
+### 🔹 **43. `<section>`**
+- **Definition:** Groups related content in a page.
+- **Example:** `<section><h2>About</h2></section>`
+
+---
+
+### 🔹 **44. `<article>`**
+- **Definition:** Represents a self-contained article or piece of content.
+- **Example:** `<article><h2>Blog Post</h2></article>`
+
+---
+
+### 🔹 **45. `<aside>`**
+- **Definition:** Sidebar or tangential content.
+- **Example:** `<aside>Related Links</aside>`
+
+---
+
+### 🔹 **46. `<main>`**
+- **Definition:** Main content area (unique to the document).
+- **Example:** `<main><h1>Main Content</h1></main>`
+
+---
+
+### 🔹 **47. `<figure>`**
+- **Definition:** Container for media (images, charts, etc.).
+- **Example:** `<figure><img src="img.png"><figcaption>Caption</figcaption></figure>`
+
+---
+
+### 🔹 **48. `<figcaption>`**
+- **Definition:** Caption for the `<figure>` element.
+- **Example:** `<figcaption>Image Description</figcaption>`
+
+---
+
+### 🔹 **49. `<canvas>`**
+- **Definition:** Draw graphics using JavaScript.
+- **Example:** `<canvas id="myCanvas"></canvas>`
+
+---
+
+### 🔹 **50. `<audio>`**
+- **Definition:** Embeds sound content.
+- **Example:** `<audio controls><source src="song.mp3" type="audio/mpeg"></audio>`
+
+---
+
+Would you like this in a downloadable format like PDF or Markdown for easy reference?

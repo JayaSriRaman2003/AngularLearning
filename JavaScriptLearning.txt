@@ -1,0 +1,223 @@
+	🔰 Beginner Level: JavaScript Foundations
+Introduction to JavaScript
+
+What is JavaScript?
+
+How it runs (Browser, Node.js)
+
+How to write and execute JS code
+
+Variables and Data Types
+
+var, let, and const
+
+Primitive and Reference types
+
+Type coercion and typeof
+
+Operators
+
+Arithmetic, Assignment, Comparison
+
+Logical operators
+
+Ternary operator
+
+Operator precedence
+
+Control Structures
+
+if, else, else if
+
+switch statements
+
+for, while, do...while loops
+
+break, continue
+
+Strings and String Methods
+
+Creating strings
+
+Template literals
+
+Useful string methods
+
+Arrays and Array Methods
+
+Creating arrays
+
+Looping through arrays
+
+Common methods (push, pop, map, filter, etc.)
+
+Objects
+
+Creating and accessing objects
+
+Nested objects
+
+Looping through objects
+
+Functions
+
+Function declarations & expressions
+
+Parameters, arguments, return values
+
+Arrow functions
+
+Scope & closures
+
+🧰 Intermediate Level: Core JavaScript Concepts
+DOM Manipulation
+
+What is the DOM?
+
+Selecting elements (getElementById, querySelector, etc.)
+
+Changing styles, content, and attributes
+
+Events and Event Handling
+
+Adding event listeners
+
+Event object
+
+click, submit, keydown, etc.
+
+Advanced Array & Object Methods
+
+reduce, some, every, find, findIndex
+
+Object destructuring
+
+Spread and rest operators
+
+ES6+ Features
+
+let, const, arrow functions
+
+Default parameters
+
+Destructuring
+
+Template literals
+
+Enhanced objects
+
+Optional chaining, nullish coalescing
+
+Error Handling
+
+try, catch, finally
+
+throw custom errors
+
+LocalStorage and SessionStorage
+
+Storing and retrieving data in the browser
+
+JSON serialization
+
+Date and Time
+
+Working with the Date object
+
+Formatting dates
+
+Timers
+
+setTimeout, setInterval, and clearing timers
+
+🔗 Advanced Level: Asynchronous JavaScript
+Callbacks
+
+Understanding how callbacks work
+
+Callback hell
+
+Promises
+
+Creating and using promises
+
+.then(), .catch(), .finally()
+
+Async/Await
+
+Writing asynchronous code cleanly
+
+Handling errors in async functions
+
+Fetch API and HTTP Requests
+
+Sending GET/POST requests
+
+Consuming APIs
+
+Working with JSON
+
+🧱 OOP & Modular JavaScript
+Object-Oriented JavaScript
+
+Constructor functions
+
+Prototypes and inheritance
+
+ES6 Classes and methods
+
+Modules in JavaScript
+
+export, import
+
+Organizing JS files
+
+🧪 Advanced Concepts
+Closures
+
+What they are and why they matter
+
+Lexical scoping
+
+The this Keyword
+
+Context and how this behaves
+
+In functions, objects, classes
+
+Execution Context & Call Stack
+
+How JS code is executed
+
+Call stack, heap, memory
+
+Event Loop, Microtasks, and Macrotasks
+
+Understanding how asynchronous behavior works under the hood
+
+🧩 Optional / Nice-to-Know Topics
+Regular Expressions (RegEx)
+
+Pattern matching
+
+Basic syntax and use cases
+
+Functional Programming in JavaScript
+
+Pure functions
+
+Higher-order functions
+
+Immutability
+
+Data Structures & Algorithms in JS
+
+Linked lists, stacks, queues
+
+Sorting, searching, recursion
+
+Introduction to TypeScript (if going further)
+
+Why use TS with JS
+
+Types, interfaces, enums
