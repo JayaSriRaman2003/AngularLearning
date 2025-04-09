@@ -1,115 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="homePage.css"/>
+  <link rel="icon" href="twitter.ico"/>
 
-    <style>
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-
-        .card-1{
-            width: 250px;
-            height: 300px;
-            background-color: #ff8f8f;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            margin: 20px;
-            font-size: 24px;
-            color: #e67373;
-            display: flex;
-            justify-content: center;
-            /* align-items: center; */
-        }
-        .card-2{
-            width: 250px;
-            height: 300px;
-            background-color: #ebde6d;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            margin: 20px;
-            font-size: 24px;
-            color: #e67373;
-            
-            display: flex;
-            justify-content: center;
-        }
-        .card-3{
-            width: 250px;
-            height: 300px;
-            background-color: #6a4cf0;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            margin: 20px;
-            font-size: 24px;
-            color: #e67373;
-            
-            display: flex;
-            justify-content: center;
-        }
-
-        .circle{
-            height: 150px;
-            width: 150px;
-            background-color: #ffffff;
-            margin: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        img{
-            height: 100px;
-            align-items: center;
-        }
-
-        button{
-            display: flex;
-            position:absolute;
-            top: 50px;
-            right: 100px;
-            padding: 10px;
-            background-color: #29db55;
-            color: white;
-            outline-color: none;
-            border: 2px solid #d1d1d1;
-            border-radius: 10px;
-            font-size: 16px;
-        }
-
-    </style>
+ 
 </head>
 <body>
-    <div class="card-1">
-        <div class="circle">
-            <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg" alt="">
-        </div>
+
+  <!-- Top Navbar -->
+  <nav class="navbar-top">
+        <div class="logo">Twitter</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="AccountPage.html">Account</a></li>
+      <li><a style="cursor: pointer;" onclick="logout()">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Cards
+  <div class="card-1">
+    <div class="circle">
+      <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg" alt=""/>
     </div>
-    <div class="card-2">
-        <div class="circle">
-            <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg" alt="">
-        </div>
+  </div>
+  <div class="card-2">
+    <div class="circle">
+      <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg" alt=""/>
     </div>
-    <div class="card-3">
-        <div class="circle">
-            <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg" alt="">
-        </div>
+  </div>
+  <div class="card-3">
+    <div class="circle">
+      <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg" alt=""/>
+    </div>
+  </div> -->
+
+  <!-- Logout Button -->
+  <!-- <button onclick="logout()">LogOut</button> -->
+
+  <div class="container">
+    <!-- sec 1 -->
+    <div class="section-1">
+
+      <div>
+        <i class="fas fa-band-aid"></i>
+      </div>
+
     </div>
 
-    <button onclick="logout()">LogOut</button>
+    <!-- sec 2 -->
+    <div class="section-2">
 
-    <script>
+    </div>
 
-        function logout(){
-            window.location.href = "login.html";
-        }   
-    </script>
+    <!-- sec 3 -->
+    <div class="section-3">
+    </div>
+  </div>
+
+  <script>
+    function logout() {
+      window.location.href = "login.html";
+    }
+  </script>
 </body>
 </html>

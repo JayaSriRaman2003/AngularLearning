@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  padding-top: 80px; 
+}
+
+
+.navbar-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #007bff;
+}
+
+
+.card-1,
+.card-2,
+.card-3 {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card-1 {
+  background-color: #ff8f8f;
+}
+
+.card-2 {
+  background-color: #ebde6d;
+  color: #333;
+}
+
+.card-3 {
+  background-color: #6a4cf0;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+
+.circle {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle img {
+  height: 100px;
+}
+
+.container{
+  display: flex;
+}
+
+.section-1{
+  height: 100vh;
+  width: 350px;
+  background-color: #44ff00;
+}
+
+.section-2{
+  height: 100vh;
+  width: 560px;
+  background-color: #007bff;
+}
+
+.section-3{
+  height: 100vh;
+  width: 350px;
+  background-color: #d9ff00;
+}

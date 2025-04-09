@@ -16,6 +16,10 @@ function register(){
         alert("Password must be at least 5 characters long");
         return;
     }
+
+    localStorage.setItem("username", name);
+    localStorage.setItem("password", pass);
+    
     alert("Registration successful!");
     window.location.href = "login.html";
 

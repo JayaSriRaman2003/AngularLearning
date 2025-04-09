@@ -1,20 +1,20 @@
-function login(){
+function login() {
     const name = document.getElementById("l-user-name").value;
     const pass = document.getElementById("l-user-password").value;
 
-
-    if(!name || !pass){
-        alert("Please  enter all the fields");
+    if (!name || !pass) {
+        alert("Please enter all the fields");
         return;
     }
 
-    alert("Login successful!");
-    window.location.href = "homePage.html";
+   
+    const storedName = localStorage.getItem("username");
+    const storedPass = localStorage.getItem("password");
 
-    
-}
-
-
-class Auth{
-    
+    if (name === storedName && pass === storedPass) {
+        alert("Login successful!");
+        window.location.href = "homePage.html";
+    } else {
+        alert("Invalid username or password");
+    }
 }
