@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .register{
+        display: inline-block;
+    }
+</style>
+<body>
+    
+    <!-- Register -->
+
+    <div class="register">
+        <input type="text" id="name" placeholder="Enter your email" required>
+        <input type="password" id="password" placeholder="Enter your password" required>
+
+        <button onclick="auth.register()">Register</button>
+    </div>
+
+
+    <div class="login">
+        <input type="text" id="login-name" placeholder="Enter your email" required>
+        <input type="password" id="login-password" placeholder="Enter your password" required>
+
+        <button onclick="auth.login()">Login</button>
+    </div>
+
+    <script>
+        
+        class Auth {
+    constructor() {
+        this.userCred = {
+            email: '',
+            password: ''
+        };
+
+        
+    }
+
+    register() {
+        const userMail = document.getElementById("name").value;
+        const userPassword = document.getElementById("password").value;
+
+        this.userCred.email = userMail;
+        this.userCred.password = userPassword;
+
+        if(!userMail || !userPassword) {
+            alert("Please fill in all fields");
+            return;
+        }
+        alert("Registration Successful");
+
+        document.getElementById("name").value = "";
+        document.getElementById("password").value = "";
+    }
+
+    login() {
+        const loginUserMail = document.getElementById("login-name").value;
+        const loginUserPassword = document.getElementById("login-password").value;
+
+        if (loginUserMail === this.userCred.email && loginUserPassword === this.userCred.password) {
+            alert("Login Successful");
+        } else {
+            alert("Login Failed");
+        }
+
+         document.getElementById("login-name").value = "";
+        document.getElementById("login-password").value = "";
+    }
+}
+
+// Example usage:
+const auth = new Auth();
+
+// You can connect these functions to buttons like:
+// <button onclick="auth.register()">Register</button>
+// <button onclick="auth.login()">Login</button>
+
+    </script>
+</body>
+</html>
