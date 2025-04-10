@@ -31,6 +31,13 @@ body {
   font-size: 24px;
   font-weight: 600;
   color: #1da1f2;
+  cursor: pointer;
+}
+
+.logo:hover{
+  font-size: 26px;
+  font-weight: 600;
+  color: #4b1df2;
 }
 
 .inner-navbar {
@@ -162,3 +169,13 @@ body {
   margin-top: 10px;
   margin-bottom: 5px;
 }
+
+.summa-img {
+  height: 200px; width: 300px; margin-left: 40px; margin-top: 20px; border-radius: 20px;
+}
+
+.summa-img:hover {
+  height: 205px;
+  width: 305px;
+}
+

@@ -60,6 +60,13 @@
 
     <aside class="side right-side">
       <div class="trends">Trends for you</div>
+
+      <img class="summa-img" src="https://wp-asset.groww.in/wp-content/uploads/2021/10/12120522/All-You-Need-To-Know-About-Bad-Bank-in-India_Sep29.png" alt="" >
+      <p style=" margin-left: 106px;">Bank is offering Loans</p>
+
+      <img class="summa-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5d5v922-MDJka6BYwE0jgx7ZSGCH9cx7P2A&s" alt="">
+    
+      <p style="margin-top: 0px; margin-left: 170px;">Stock Raise</p>
     </aside>
 
   </div>
@@ -70,8 +77,8 @@
       window.location.href = "register.html"
     }
 
-      function heart() {
-  const heartIcon = document.getElementById('heart');
+  function heart() {
+    const heartIcon = document.getElementById('heart');
 
     if (heartIcon.classList.contains('fa-regular')) {
       heartIcon.classList.remove('fa-regular');
@@ -95,7 +102,11 @@ function logTextareaValue(){
   document.getElementById('page-title').innerHTML = title;
   imgVal = document.getElementById('page-img').src = img;
 
-  document.getElementById('post-id').style.display = "flex";
+  if(!content || !title || !img){
+      alert("Fill All the Fields")
+  }else{
+    document.getElementById('post-id').style.display = "flex";
+  }
   document.getElementById('tweet-text').value = ""; 
   document.getElementById('tweet-title').value = "";
   document.getElementById('tweet-img').value = "";
