@@ -16,6 +16,13 @@ body {
   background-color: #f0f0f0;
 }
 
+.backbutton{
+  background-color: #fafafa;
+  z-index: 1000;
+}
+
+
+
 .card-1{
   width: 400px;
   height: 400px;
@@ -58,4 +65,30 @@ margin-top: 30px;
 .hey-1{
     font-size: 19px;
     color: rgb(223, 223, 223);
+}
+
+.back-icon{
+  height: 50px;
+  width: 50px;
+  background-color: #6a4cf0;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.back-icon{
+  color: white;
+}
+
+
+.del-btn{
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: bold;
+  margin-top: 5px;
 }
